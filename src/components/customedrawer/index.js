@@ -45,7 +45,9 @@ const CustomDrawer = props => {
 
       <View style={styles.drerliscontainer}>
         <View style={styles.singleviewlis}>
-          <TouchableOpacity style={styles.listbutblack}>
+          <TouchableOpacity
+            style={styles.listbutblack}
+            onPress={() => navigation.navigate('spots')}>
             <View>
               <Image source={images.spots} />
             </View>

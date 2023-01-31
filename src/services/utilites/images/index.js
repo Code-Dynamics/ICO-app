@@ -40,8 +40,19 @@ import facebook from '../../../assets/facebook.png';
 import rate from '../../../assets/rate.png';
 import telegram from '../../../assets/telegram.png';
 import cardimage from '../../../assets/cardimage.png';
+import XRP from '../../../assets/XRP.png';
+import BUSD from '../../../assets/BUSD.png';
+import DOT from '../../../assets/DOT.png';
+import WBTC from '../../../assets/WBTC.png';
+import AVAX from '../../../assets/AVAX.png';
+import LTC from '../../../assets/LTC.png';
 
 const images = {
+  BUSD,
+  DOT,
+  WBTC,
+  AVAX,
+  LTC,
   cardimage,
   tipstrick,
   background,
@@ -84,5 +95,6 @@ const images = {
   youtube,
   facebook,
   rate,
+  XRP
 };
 export default images;
